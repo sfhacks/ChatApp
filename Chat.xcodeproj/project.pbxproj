@@ -14,7 +14,7 @@
 		496BAACF1D90B38B00C58C79 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 496BAACD1D90B38B00C58C79 /* LaunchScreen.storyboard */; };
 		496BAAD71D90B40E00C58C79 /* ChatHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 496BAAD61D90B40E00C58C79 /* ChatHelper.swift */; };
 		4FDCADCE9208A997EC41ABCB /* Pods_Chat.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F1AFDA43DA5A86FB157CA755 /* Pods_Chat.framework */; };
-		89B8A8CD1D93698F007CCBA8 /* Redis.swift in Sources */ = {isa = PBXBuildFile; fileRef = 89B8A8CC1D93698F007CCBA8 /* Redis.swift */; };
+		8919DEBB1D93880B004557BD /* Redis.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8919DEBA1D93880B004557BD /* Redis.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -27,7 +27,7 @@
 		496BAAD01D90B38B00C58C79 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		496BAAD61D90B40E00C58C79 /* ChatHelper.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ChatHelper.swift; sourceTree = "<group>"; };
 		51092AA261019412EA6A80EF /* Pods-Chat.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Chat.release.xcconfig"; path = "Pods/Target Support Files/Pods-Chat/Pods-Chat.release.xcconfig"; sourceTree = "<group>"; };
-		89B8A8CC1D93698F007CCBA8 /* Redis.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = Redis.swift; path = ../../RedisDemo/RedisDemo/Redis.swift; sourceTree = "<group>"; };
+		8919DEBA1D93880B004557BD /* Redis.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Redis.swift; sourceTree = "<group>"; };
 		F1AFDA43DA5A86FB157CA755 /* Pods_Chat.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Chat.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		F3B79B58564E37ECF80544BC /* Pods-Chat.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Chat.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Chat/Pods-Chat.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -65,7 +65,7 @@
 		496BAAC31D90B38B00C58C79 /* Chat */ = {
 			isa = PBXGroup;
 			children = (
-				89B8A8CC1D93698F007CCBA8 /* Redis.swift */,
+				8919DEBA1D93880B004557BD /* Redis.swift */,
 				496BAAC41D90B38B00C58C79 /* AppDelegate.swift */,
 				496BAAC61D90B38B00C58C79 /* ViewController.swift */,
 				496BAAD61D90B40E00C58C79 /* ChatHelper.swift */,
@@ -129,6 +129,7 @@
 				TargetAttributes = {
 					496BAAC01D90B38A00C58C79 = {
 						CreatedOnToolsVersion = 8.0;
+						DevelopmentTeam = 644K27Q47A;
 						ProvisioningStyle = Automatic;
 					};
 				};
@@ -218,7 +219,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				496BAAC71D90B38B00C58C79 /* ViewController.swift in Sources */,
-				89B8A8CD1D93698F007CCBA8 /* Redis.swift in Sources */,
+				8919DEBB1D93880B004557BD /* Redis.swift in Sources */,
 				496BAAD71D90B40E00C58C79 /* ChatHelper.swift in Sources */,
 				496BAAC51D90B38B00C58C79 /* AppDelegate.swift in Sources */,
 			);
@@ -264,6 +265,7 @@
 				CLANG_WARN_INFINITE_RECURSION = YES;
 				CLANG_WARN_INT_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
 				CLANG_WARN_SUSPICIOUS_MOVES = YES;
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
@@ -314,6 +316,7 @@
 				CLANG_WARN_INFINITE_RECURSION = YES;
 				CLANG_WARN_INT_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
 				CLANG_WARN_SUSPICIOUS_MOVES = YES;
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
@@ -344,6 +347,7 @@
 			baseConfigurationReference = F3B79B58564E37ECF80544BC /* Pods-Chat.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 644K27Q47A;
 				INFOPLIST_FILE = Chat/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = sfhacks.Chat;
@@ -357,6 +361,7 @@
 			baseConfigurationReference = 51092AA261019412EA6A80EF /* Pods-Chat.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 644K27Q47A;
 				INFOPLIST_FILE = Chat/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = sfhacks.Chat;
