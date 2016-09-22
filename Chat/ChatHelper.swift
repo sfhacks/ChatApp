@@ -13,7 +13,7 @@ class ChatHelper {
     static let redisServer = Redis()
     
     static func connectToServer() {
-        redisServer.server(endPoint: "127.0.0.1", onPort: 6379)
+        redisServer.server(endPoint: "172.16.165.127", onPort: 6379)
         redisServer.Command(Command: "Ping")
     }
     
