@@ -1,0 +1,30 @@
+{
+  "DVTSourceControlWorkspaceBlueprintPrimaryRemoteRepositoryKey" : "8AA3937E4341D90EDFD8FC7374BC222FDD3B09D8",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyRepositoryLocationsKey" : {
+
+  },
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyStatesKey" : {
+    "7C6C4A36DDF4B0F86BDAA927D353F83DEE7B1D80" : 9223372036854775807,
+    "8AA3937E4341D90EDFD8FC7374BC222FDD3B09D8" : 9223372036854775807
+  },
+  "DVTSourceControlWorkspaceBlueprintIdentifierKey" : "939F9F00-6C89-4274-A122-7342C0FDF93F",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyPathsKey" : {
+    "7C6C4A36DDF4B0F86BDAA927D353F83DEE7B1D80" : "RedisDemo\/",
+    "8AA3937E4341D90EDFD8FC7374BC222FDD3B09D8" : "ChatApp\/"
+  },
+  "DVTSourceControlWorkspaceBlueprintNameKey" : "Chat",
+  "DVTSourceControlWorkspaceBlueprintVersion" : 204,
+  "DVTSourceControlWorkspaceBlueprintRelativePathToProjectKey" : "Chat.xcworkspace",
+  "DVTSourceControlWorkspaceBlueprintRemoteRepositoriesKey" : [
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "https:\/\/github.com\/sfhacks\/swift-challenge.git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "7C6C4A36DDF4B0F86BDAA927D353F83DEE7B1D80"
+    },
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "https:\/\/github.com\/sfhacks\/ChatApp.git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "8AA3937E4341D90EDFD8FC7374BC222FDD3B09D8"
+    }
+  ]
+}
